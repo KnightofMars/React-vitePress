@@ -7,7 +7,7 @@ hero:
   text: "React基础知识以及进阶"
   tagline: 是微风 是晚霞  是心跳不止 是无可替代
   image:
-    src: /React-vitePresse/background.png
+    src: /background.png
     alt: VitePress
   actions:
     - theme: brand
