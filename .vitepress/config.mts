@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base:'/React-vitePresse',
   title: "React ",
   description: "React basic knowledge and advanced",
   themeConfig: {
