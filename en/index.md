@@ -3,28 +3,28 @@
 layout: home
 
 hero:
-  name: "React文档"
-  text: "React基础知识以及进阶"
-  tagline: 是微风 是晚霞  是心跳不止 是无可替代
+  name: "ReactBasicDocumentation"
+  text: "ReactBasicsAndAdvancements"
+  tagline: It's the whispering breeze, the hues of dusk, the relentless pulse, the unmatched essence.
   image:
     src: /background.png
     alt: VitePress
   actions:
     - theme: brand
-      text: 基础知识
+      text: Basic
       link: /markdown-examples
-    - theme: alt
-      text: 进阶
+    - theme: advance
+      text: Advance
       link: /api-examples
 
 features:
-  - title: 锤子
+  - title: Hammer
     icon: 🛠️
-    details: 你得是个锤子
+    details: Are you hammer?
   - icon:
       src: /fruit.svg
-    title: 水果
-    details: 我是樱桃
+    title: Fruit
+    details: I am cherry
   - icon: 🙌
     title: Feature C
     details: 项目实战
