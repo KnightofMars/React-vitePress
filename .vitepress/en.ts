@@ -40,7 +40,9 @@ export const en = defineConfig({
     footer: {
       message: "Getting a good night's sleep is more important than love",
       copyright: 'Copyright © 2024-present MarsKnight'
-    }
+    },
+    docFooter: { prev: 'Previous page', next: 'Next page' },
+    lastUpdatedText: "Last updated"
   }
 })
 
