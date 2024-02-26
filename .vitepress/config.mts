@@ -10,7 +10,7 @@ export default defineConfig({
     logo: '/React.svg',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '基础知识', link: '/' },
+      { text: 'vitepress构建', link: '/zh/vitepress-bulid' },
       { text: '进阶', link: '/markdown-examples' },
       { text: '下拉例子', 
         items: [
@@ -31,7 +31,8 @@ export default defineConfig({
         items: [
           { text: 'markdown例子', link: '/markdown-examples' },
           { text: '跑起来的api接口', link: '/api-examples' },
-          { text: 'vitePress', link: '/vitepress' }
+          { text: 'vitePress', link: '/vitepress' },
+          { text: 'vitepress构建', link: '/zh/vitepress-bulid' }
         ]
       }
     ],
@@ -66,6 +67,9 @@ export default defineConfig({
     editLink: {
       pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
       text: '去GitHub上编辑此页'
+    },
+    outline: {
+      label: '页面导航'
     },
     docFooter: { prev: '上一篇', next: '下一篇' },
     lastUpdatedText: "最近更新时间"
