@@ -1,8 +1,8 @@
-# 官方配置
+## 官方配置
 
 - vitePress基本配置就是看官网 [VitePress 是什么？ | VitePress](https://vitepress.dev/zh/guide/what-is-vitepress)
 
-# b站博主配置俩栏以及构建
+## b站博主配置俩栏以及构建
 
 - 如何变俩栏布局和部署到github官网 查看 [vitepress搭建并部署网站 | AlbertZhang的文档网站](https://docs.bugdesigner.cn/docs/Tutorial/vitepress.html#%E9%83%A8%E7%BD%B2%E6%AD%A5%E9%AA%A4)
   
@@ -166,7 +166,7 @@
       
       > **<a style="color:red">踩坑点:部署上去发现css没有生效 直接添加一个.nojekyll文件 里面什么都不需要写 这个文件就是告诉 Github Pages 当前网站不是基于 Jekyll 构建的，不要忽略掉下划线开头的文件和文件夹。</a>**
 
-# 最后更新时间等额外配置,并且中文显示
+##  最后更新时间等额外配置,并且中文显示
 
 [VitePress 手把手完全使用手册 - 掘金](https://juejin.cn/post/7164276166084263972)[VitePress 手把手完全使用手册 - 掘金](https://juejin.cn/post/7164276166084263972)
 
@@ -179,7 +179,7 @@
  })
 ```
 
-# 中英文切换
+## 中英文切换
 
 读文档能力太差，读官方文档只是配置了如何显示这个下拉框 实现不了任何功能 网上也没有搜到方法 最后是直接看vitepress这个文档的源码 发现
 
@@ -284,7 +284,7 @@ export const en = defineConfig({
         |-- React.svg',
 ```
 
-# outline属性
+##  outline属性
 
 控制页面右边侧边栏的名称 以前根据md标题 # 多少 来自动生成右侧的锚点 默认是deep
 
