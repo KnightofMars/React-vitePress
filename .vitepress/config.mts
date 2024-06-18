@@ -11,6 +11,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'vitepress构建', link: '/zh/vitepress-bulid' },
+      { text: '每日一道面试题', link: '/zh/interview' },
       { text: '进阶', link: '/markdown-examples' },
       { text: '下拉例子', 
         items: [
@@ -32,7 +33,8 @@ export default defineConfig({
           { text: 'markdown例子', link: '/markdown-examples' },
           { text: '跑起来的api接口', link: '/api-examples' },
           { text: 'vitePress', link: '/vitepress' },
-          { text: 'vitepress构建', link: '/zh/vitepress-bulid' }
+          { text: 'vitepress构建', link: '/zh/vitepress-bulid' },
+          { text: '每日一道面试题', link: '/zh/interview' },
         ]
       }
     ],
